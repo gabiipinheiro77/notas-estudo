@@ -5,7 +5,7 @@ markdown
 
 ## Configurar Git
 
-Para utilizar o git na minha maquina  eu preciso configurar determinado comandos sendo eles:
+Para utilizar o git na minha maquina  eu preciso configurar determinador comandos sendo eles:
 
 ```bash
 git config --global
