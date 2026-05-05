@@ -76,7 +76,7 @@ Vai colocar esse comado :
  
 $ cd documents/
  
-$git clone , botão direito e cola
+$ git clone , botão direito e cola
  
 Depois o nome do repositório , enter
  
@@ -85,6 +85,7 @@ Vai aparecer o ( main ) , depois
 Code .( código )
  
 Pronto abriu o teu vs code
+
  ```
 ### 3 passo ( criar pastas ) 
  ```
@@ -152,4 +153,61 @@ const buttonexemplo1 = document.getElementById("exercicio1")
 
 buttonexemplo1.addEventListener('click', () => { exemplo1() })// nome da função 
  ```
+
+# 23/03 anotação revisão e explicação ( passar isso para nota de estudo )
+ Const( vai desse jeito e termina desse jeito ) sempre usar const
+
+  Alert : serve para exibir uma mensagem
+
+  Não recebe a resposta
+
+Bloqueia a tela ate o usurário confirmar
+
+Ideal para exemplos simples e aprendizado
+
+ Prompt
+
+ Ele ira nos permitir realizar duas ações
+
+ Mostrar uma pergunta
+
+ Receber uma resposta do usuário
+
+ Prompt-Variáveis
+
+ Aqui nasce algo poderoso : guardar qualquer coisa
+
+ O valor digitado pode ser armazenado
+
+Variaveis passam a ter significado real
+
+O código começa a reagir ao usuário
+
+(sem variável a resposta se perde )
+
+função:retorna uma referência ao elemento pelo seu ID
+uso principal:selecionar elemnetos únicos em uma página para manipulação ou leitura de dados
+
+const element = document.getElementById('my-element');
+element.style.color = 'blue';
+createElement
+função:cria um novo elemento
+uso
+
+const elementoNovo = document.createElement("h1")
+
+appenChild
+
+
+if else
+são estruturas condicionais que permitem executar diferentes blocos de codigos com base em uma condição ou expressão booleana
+
+let ocupado = 2
+if(ocupado == 1){
+    console.log("Ocupado");
+} else if (ocupado == 2) {
+    console.log("Reservado");
+} else {
+    console.log("Livre");
+}
 
